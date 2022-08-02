@@ -10,5 +10,5 @@ def clear_downloads():
 
 
 def download_callback(message: types.Message, file_path: str):
-    clear_downloads()
     send_audio(message, file_path)
+    clear_downloads()
