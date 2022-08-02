@@ -10,5 +10,5 @@ def send_audio(chat_id: int, file_path: str):
         bot.send_audio(
             chat_id=chat_id,
             audio=audio,
-            timeout=60
+            timeout=360
         )
